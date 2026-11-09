@@ -1,0 +1,68 @@
+{
+  "variant": 14,
+  "dimension": 7,
+  "bounds": [
+    -5.0,
+    5.0
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035,
+    2036,
+    2037,
+    2038,
+    2039,
+    2040,
+    2041,
+    2042,
+    2043,
+    2044,
+    2045,
+    2046,
+    2047,
+    2048,
+    2049,
+    2050,
+    2051,
+    2052,
+    2053,
+    2054,
+    2055
+  ],
+  "evaluation_budget_per_run": 8760,
+  "ga": {
+    "ga_p010": {
+      "population_size": 60,
+      "generations": 150,
+      "elite_count": 2,
+      "tournament_size": 3,
+      "crossover_probability": 0.9,
+      "blend_alpha": 0.5,
+      "mutation_probability": 0.1,
+      "mutation_sigma": 0.2
+    },
+    "ga_p030": {
+      "population_size": 60,
+      "generations": 150,
+      "elite_count": 2,
+      "tournament_size": 3,
+      "crossover_probability": 0.9,
+      "blend_alpha": 0.5,
+      "mutation_probability": 0.3,
+      "mutation_sigma": 0.2
+    }
+  },
+  "random": {
+    "initial_samples": 60,
+    "batch_size": 58,
+    "batches": 150
+  }
+}
